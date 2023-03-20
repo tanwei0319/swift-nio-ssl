@@ -27,10 +27,9 @@ Pod::Spec.new do |s|
   }
   
   
-  s.dependency 'Atomics', '>= 2.23.0', '< 3' 
+  s.dependency 'Swift-Atomics', '>= 1.0.0' 
   s.dependency 'CNIOBoringSSLShims', s.version.to_s 
   s.dependency 'CNIOAtomics', '>= 2.23.0', '< 3' 
-  s.dependency '_AtomicsShims', '>= 2.23.0', '< 3' 
   s.dependency 'SwiftNIOPosix', '>= 2.23.0', '< 3' 
   s.dependency 'SwiftNIOCore', '>= 2.23.0', '< 3' 
   s.dependency 'CNIOWindows', '>= 2.23.0', '< 3' 
@@ -40,7 +39,6 @@ Pod::Spec.new do |s|
   s.dependency 'SwiftNIOTLS', '>= 2.23.0', '< 3' 
   s.dependency 'SwiftNIOConcurrencyHelpers', '>= 2.23.0', '< 3' 
   s.dependency 'SwiftNIOEmbedded', '>= 2.23.0', '< 3' 
-  s.dependency 'DequeModule', '>= 2.23.0', '< 3' 
   s.dependency 'SwiftNIO', '>= 2.23.0', '< 3' 
   s.dependency 'CNIOLinux', '>= 2.23.0', '< 3'
   
